@@ -1,0 +1,126 @@
+ /*======================================================================================================================================================
+ * GENERAL
+ * ===================================================================================================================================================*/
+/* */
+.left {
+	float:left;
+}
+.right {
+	float:right;
+}
+.ul_questions {
+	margin-bottom:40px;
+}
+.ul_questions>li>a {
+	font-size:16px;
+	color:#353535;
+	font-family:"PT Sans";
+	text-decoration:none;
+}
+.ul_questions>li {
+	margin-bottom:20px;
+}
+.plus_minus {
+	background: url("../images/resume/plusminus.png") no-repeat scroll center bottom transparent;
+	width:19px;
+	height:19px;
+	display:block;
+	float:left;
+	top:0px;
+	position:relative;
+	margin-right:15px;
+	cursor:pointer;
+}
+.border-center {
+	width:565px;
+	background: url("../images/resume/horizontal_divider_right.png") repeat-x scroll center center;
+	height:19px;
+	display:block;
+	float:left;
+}
+.border-center a {
+	font-size:16px;
+	color:#353535;
+	font-family:"PT Sans";
+	text-decoration:none;
+}
+.border-center a span {
+	background-color:#ffffff;
+	height:19px;
+	line-height:19px;
+	
+}
+.border-center a span.title {
+	padding:0 10px 0 0;
+	font-weight:700;
+}
+.border-center a span.experience {
+	color:#909090;
+	font-size:10px;
+	background-color:#f4f4f4;
+	padding:0 8px;
+	border-radius:3px;
+}
+.border-center a span.experience.active {
+	
+}
+.border-center a span.experience_active {
+	color:#ffffff;
+	background-color:#444444;
+}
+.border-center a  i{
+	background-color: #FFFFFF;
+    display: block;
+    height: 19px;
+    padding: 0 5px;
+}
+.ul_questions>li div {
+	font-size:11px;
+	font-family:"PT Sans";
+}
+.ul_questions>li div.bar {
+	font-weight:bold;
+	color:#ffffff;
+}
+.answer_title {
+	padding-left:35px;
+}
+.answer {
+	display:none;
+	padding-left:35px;
+	color:#707070;
+	
+	/*border-left:1px dashed #e1e1e1;*/
+	background: url("../images/resume/vertical_divider_right.png") repeat-y scroll 9px top;
+	
+}
+.answer p {
+	line-height:1.5;
+	color:#808080;
+	font-style:italic;
+}
+.bar_container {
+	width:100%;
+	height:22px;
+	background-color:#ebebeb;
+	border-radius:4px;
+	margin:10px 0;
+}
+.bar {
+	background-color:#59bbe8;
+	height:22px;
+	border-radius:4px;
+	text-align:right;
+	line-height:22px;
+	
+}
+.bar .bar_padding {
+	margin-right:10px;
+}
+.ul_questions > li div.bar_title {
+	height:17px;
+	line-height:17px;
+	font-style:normal;
+	margin:5px 0 8px 0;
+	color:#C0C0C0;
+}

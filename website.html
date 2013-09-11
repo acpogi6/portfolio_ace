@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="shortcut icon" type="image/ico" href="img/favicon.ico">
+    <title>Ace Molina</title>
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <link href="css/bootstrap.css" rel="stylesheet" media="screen">
+    <!-- webCSS -->
+    <link href="css/webcss.css" rel="stylesheet">
+    <!--style CSS -->
+    <link href="css/style.css" rel="stylesheet">
+    <!-- Back to top -->
+    <script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+    <!--Script Back To Top -->
+    <link href="css/totop.css" rel="stylesheet">
+    <!-- CSS skills -->
+   <style type="text/css">
+      /* Used in Example 3 */
+      #example3 ul { color:#fff; font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif !important;}
+      #example3 h3 {color:#fff;text-transform:uppercase;font-size:24px;font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif !important;}
+      #example3 p {color:#fff;}
+      #example3 .frame-1 {background:url(images/slide1.gif) top left repeat;}
+      #example3 .frame-2 {background:url(images/slide2.gif) top left repeat;}
+      #example3 .frame-3 {background:url(images/slide4.gif) top left repeat;}
+      #example3 .frame-content {width:550px;padding:100px 120px;}
+      #example3 .frame-closed .frame-content {display:none;}
+      #example3 .frame-open .frame-content {display:block;}
+    </style>
+    <!--JQUERY on SKILLS -->
+    <script type="text/javascript">
+      jQuery(document).ready(function(){
+        var pxShow = 300;//height on which the button will show
+        var fadeInTime = 1000;//how slow/fast you want the button to show
+        var fadeOutTime = 1000;//how slow/fast you want the button to hide
+        var scrollSpeed = 1000;//how slow/fast you want the button to scroll to top. can be a value, 'slow', 'normal' or 'fast'
+        jQuery(window).scroll(function(){
+          if(jQuery(window).scrollTop() >= pxShow){
+            jQuery("#backtotop").fadeIn(fadeInTime);
+          }else{
+            jQuery("#backtotop").fadeOut(fadeOutTime);
+          }
+        });
+         
+        jQuery('#backtotop a').click(function(){
+          jQuery('html, body').animate({scrollTop:0}, scrollSpeed); 
+          return false; 
+        }); 
+      });
+    </script>
+<!--End script-->
+  </head>
+<!-- Body Content -->  
+  <body>
+      <div id="website_container" class = "row-fluid"> 
+        <div id="header">
+          <center>
+            <img src = "img/weblogo.png" height = "500" width = "500"></center>
+      </div>
+      <div id="nav_contain" class = "row-fluid">
+        <div id="main_nav">
+          <ul>
+            <a href="#blue_link"><li class="home_nav avant-garde-font">Home</li></a>
+            <a href="#red_link"><li class="about_nav avant-garde-font">About</li></a>
+            <a href="#purple_link"><li class="pricing_nav avant-garde-font">Skills</li></a>
+            <a href="#green_link"><li class="testimonial_nav avant-garde-font">Seminars</li></a>
+            <a href="#orange_link"><li class="contact_nav avant-garde-font">Contact</li></a>
+            <a href="#header"><li class="to_top_nav">Back To Top</li></a>
+          </ul>
+        </div>
+      </div>  
+      <div id="content_contain" class = "row-fluid">   
+<!-- Blue Block -->
+      <div id="blue_block_top" class = "row-fluid"><div id="blue_link" class = "row-fluid"></div> </div>     
+        <div class="blocks blue_block" "row-fluid">
+          <h1 class = "headerfont">My life is composed of this cycle:</h1>
+      <div class="container-fluid">
+      <section class="sub-banner row-fluid pad-top-extra pad-bottom-extra hidden-sm">
+       <div class="container main">  
+         <ul class="ch-grid">
+          <li>
+            <div class="ch-item">       
+              <div class="ch-info">
+                <div class="ch-info-front ch-img-1"></div>
+                <div class="ch-info-back">
+                  <h3>Rest</h3>
+                  <p>Everybody needs rest, and so do I.</p>
+                </div>  
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="ch-item">
+              <div class="ch-info">
+                <div class="ch-info-front ch-img-2"></div>
+                <div class="ch-info-back">
+                  <h3>Gym</h3>
+                  <p>Enough rest = Power to Lift!</p>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="ch-item">
+              <div class="ch-info">
+                <div class="ch-info-front ch-img-3"></div>
+                <div class="ch-info-back">
+                  <h3>Code</h3>
+                  <p>"Go back to reality"</p>
+                </div>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+  </div>     
+      <div class = "container-fluid visible-sm">
+        <div class = "row-fluid">
+          <div class = "span4">
+            <img src = "css/bedsm.png" height ="150" width "150">
+            <img src = "css/gymiconsm.png" height ="150" width "150">
+            <img src = "css/syntax.png" height ="150" width "150">
+          </div>
+        </div>
+      </div>
+    </div>
+      <div id="blue_block_bottom" class = "row-fluid"></div>
+<!-- Red Block -->
+      <div class = "container-fluid">    
+        <div id="red_block_top" class = "row-fluid"><div id="red_link" class = "row-fluid"></div></div>
+          <div class="blocks red_block" "row-fluid">        
+            <h1 class = "headerfont">About Me</h1>
+            <p class = "avant-garde-font">Mark Ace Molina, Bachelor of Science in Information Systems student in University of the East, Collector, Amateur Photographer, Knows how to play Guitar, Reader, Front-End Developer and currently working at DitoMismo Web Dev Company.</p>
+            <p class = "avant-garde-font"><img class="alignleft" title="Ace Molina" src="img/ace1.png" alt="" width="400" height="300" /> "More focus on Front-End Developing rather than doing Back-End Developing, he finds himself having a hard time in Back-end but not Front-end, he enjoys a lot doing front-end development, he was like playing when doing it".</p>
+            <p class = "avant-garde-font">At first I do not feel programming or doing it, I find it difficult! But when DitoMismo Team especially Martney and Omar opened a door for me in programming so I give it try, I accepted their offer.</p>
+            <p class = "avant-garde-font">Just what I was expecting from my first day, programming is so difficult, I find myself staring at the codes rather than analyzing and understanding it.</p>
+            <p class = "avant-garde-font">Couple of days passed by, and that was the time I realize that this can't be! I need to find a way to love programming (vice-versa), and guess what? The most-awaited day of my life came! Step by step I was able to understand every codes and learned from it.</p>
+            <p class = "avant-garde-font"><img class="alignright" title="Me playing Guitar" src="img/guitarace.jpg" alt="" width="400" height="300" /> Way back 2012, I was very curious on playing guitar because my friends are so fond of playing it. So, one of my close friends taught me. I learned the basics of guitar.</p>
+            <p class = "avant-garde-font">When I have a free time, you will find me at the gym lifting barbells, dumbells and doing other fitness activity to stay in shape.</p>
+            <p class = "avant-garde-font">In addition to my activities, I love playing basketball, computer games (e.g. Dota), watching movies/animes and reading books. I also collect One Piece action figures. In foods, I am more on seafoods, veggies and fruits because I'm a health-conscious person.</p>
+          </div> 
+        </div>   
+      <div id="red_block_bottom" class = "row-fluid"></div>
+<!-- Purple Block -->            
+      <div id="purple_block_top" class = "row-fluid"><div id="purple_link" class = "row-fluid"></div></div> 
+        <div class="blocks purple_block" "row-fluid">         
+          <h1 class = "headerfont">Skills</h1>   
+          <p>
+              <div>
+                  <div class="clear"></div>
+                </div>
+                <div>
+                  <div class="widget">
+                    
+                        <div class="border-center-contain"><i class="plus_minus"></i><div  class="border-center"><a title="" href=""><span class="title left">HTML</span>
+                          <span class="experience right">Beginner, 1 YEAR</span></a></div></div>
+                        <div class="clear"></div>
+                        <div class="answer_title">
+                          <div class="bar_container">
+                            <div class="bar" style="width:30%;"><span class="bar_padding">30%</span></div>
+                          </div>
+                        </div>
+
+                        <div class="border-center-contain"><i class="plus_minus"></i><div  class="border-center"><a title="" href=""><span class="title left">CSS</span>
+                          <span class="experience right">Beginner, 1 YEAR</span></a></div></div>
+                        <div class="clear"></div>
+                        <div class="answer_title">
+                          <div class="bar_container">
+                            <div class="bar" style="width:15%;"><span class="bar_padding">15%</span></div>
+                          </div>
+                        </div>
+
+                        <div class="border-center-contain"><i class="plus_minus"></i><div  class="border-center"><a title="" href=""><span class="title left">JavaScript/JQuery</span>
+                          <span class="experience right">Beginner, 1 YEAR</span></a></div></div>
+                        <div class="clear"></div>
+                        <div class="answer_title">
+                          <div class="bar_container">
+                            <div class="bar" style="width:40%;"><span class="bar_padding">40%</span></div>
+                          </div>
+                        </div>
+
+                    </div>
+                  </div>
+            </p>              
+        </div>
+        <div id="purple_block_bottom" class = "row-fluid"></div>
+<!-- Green Block -->
+        <div id="green_block_top" class = "row-fluid"><div id="green_link" class = "row-fluid"></div></div>
+          <div class="blocks green_block" "row-fluid">  
+           <h1 class = "headerfont">Seminars Attended:</h1>
+            <div id="example3" class = "hidden-sm">
+      <div class="frame-1">
+        <div class="frame-content">
+          <h3>Computer Skills</h3>
+            <p>
+              <ul>
+                <li>Set-up and Configure Software</li>
+                <li>Troubleshoot software and hardware problems</li>
+                <li>Computer Literate</li>
+              </ul>
+            </p>
+          </div>
+        </div>
+        <div class="frame-2">
+          <div class="frame-content">
+            <h3>Programming Skills</h3>
+            <p>
+              <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>PHP</li>
+                <li>MYSQL</li>
+                <li>WordPress</li>
+                <li>Bootstrap</li>
+              </ul>
+            </p>
+          </div>
+        </div>
+        <div class="frame-3">
+          <div class="frame-content">
+            <h3>Other Skills</h3>
+            <p>
+              <ul>
+                <li>Hardworking and can easily adapt to working environment</li>
+                <li>Able to communicate both verbally and written</li>
+                <li>Confident and has willingness to learn and diligent</li>
+                <li>Considerate and Patient</li>
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class = "container-fluid visible-sm">
+        <img src = "img/skillspic.png">
+      </div>
+<!-- Java on Skills -->
+      <script type="text/javascript">
+        $(document).ready(function() {
+          var accordion = $("#example3").zAccordion({
+            slideWidth: 600,
+            width: 900,
+            height: 350,
+            timeout: 3000,
+            slideClass: "frame",
+            slideOpenClass: "frame-open",
+            slideClosedClass: "frame-closed",
+            easing: "easeOutCirc"
+          });
+          $("#thumbs .thumb-0").click(function(){
+            accordion.start();
+            return false;
+          });
+          $("#thumbs .thumb-1").click(function(){
+            accordion.click(0);
+            return false;
+          });
+          $("#thumbs .thumb-2").click(function(){
+            accordion.click(1);
+            return false;
+          });
+          $("#thumbs .thumb-3").click(function(){
+            accordion.click(2);
+            return false;
+          });
+          $("#thumbs .thumb-4").click(function(){
+            accordion.click(3);
+            return false;
+          });
+          $("#thumbs .thumb-5").click(function(){
+            accordion.stop();
+            return false;
+          });
+        });
+      </script>
+     
+          </div>
+          <div id="green_block_bottom" class = "row-fluid"></div> 
+<!-- Orange Block -->
+          <div id="orange_block_top" class = "row-fluid"><div id="orange_link" class = "row-fluid"></div></div>
+            <div class="blocks orange_block" "row-fluid">  
+              <h1 class = "headerfont">Contact Me</h1>     
+                <p class = "avant-garde-font">Location: Caloocan, PH</p>
+                <p class = "avant-garde-font">Email: acemolina6@yahoo.com</p>
+                <p class = "avant-garde-font">Website: acemolina.com</p>
+                <p class = "avant-garde-font">Contact Number: 09177911449</p>
+          </div>
+          <div id="orange_block_bottom" class = "row-fluid"></div> 
+            <div id="footer">
+              <div class="container">
+                <p>
+                 <center>
+                 <h3 class = "avant-garde-font" style = "color:white;"> Social media Accounts </h3>
+                  <a href = "http://www.facebook.com/AceNgPinas"><img src = "img/facebook.png" alt="Facebook" title="Facebook"></a>
+                  <a href = "http://www.twitter.com/acpogi6"><img src = "img/twitter.png"alt="Twitter" title="Twitter"></a>
+                  <a href = "http://instagram.com/acpogi16"><img src = "img/instagram.png" height = "45px" width = "45px" alt="Instagram" title="Instagram"></a>
+                  <a href = "https://plus.google.com/u/0/getstarted?fww=1&continue=https://plus.google.com/u/0/me"><img src = "img/g+.png" height = "45px" width = "45px" alt="Google +" title="Google +"></a>
+                  <a href = "http://us-mg4.mail.yahoo.com/neo/launch?.rand=cgpn88pmpjm2q"><img src = "img/yahoo.png" alt="Yahoo Mail" title="Yahoo Mail"></a>
+                </center>
+                </p>
+        <div class = "container-fluid">
+          <div class = "row-fluid">
+            <center>
+            <p id = "credits">Developed by: Ace Molina</p>
+            </center>
+          </div>
+        </div>  
+      </div>
+    </div>
+<!-- Back To Top -->
+<div id="backtotop" style="display: block;">
+  <a href="#">
+    <div class="pull-right visible-sm">
+      <img src="img/uparrow.png">
+  </a>
+</div>
+<!-- End of Back To Top -->
+</footer>
+</body>
+<!-- JavaScript plugins (requires jQuery) -->
+    <script src="http://code.jquery.com/jquery.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- webJAVA -->
+    <script src="js/webjava.js"></script>
+    <!-- Optionally enable responsive features in IE8 -->
+    <script src="js/respond.js"></script>
+    <script src="js/jquery.min.js"></script>
+     <script type="text/javascript" src="js/jquery-1.4.2.min.js"></script>
+    <script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+    <script type="text/javascript" src="js/jquery.zaccordion.js"></script>
+    <script type="text/javascript" src="js/this.js"></script>
+</body>
+</html>
